@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import maxn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxn@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-maxn/tags). For example,
+
+```javascript
 import maxn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxn@v0.2.1-deno/mod.js';
 ```
 
@@ -113,7 +118,7 @@ var v = maxn();
 
 ```javascript
 import minstd from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-minstd-shuffle@deno/mod.js';
-import maxn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxn@v0.2.1-deno/mod.js';
+import maxn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxn@deno/mod.js';
 
 var x;
 var y;
