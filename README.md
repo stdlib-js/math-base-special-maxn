@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import maxn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxn@deno/mod.js';
+import maxn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxn@v0.2.2-deno/mod.js';
 ```
 
 #### maxn( \[x\[, y\[, ...args]]] )
@@ -113,7 +113,7 @@ var v = maxn();
 
 ```javascript
 import minstd from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-minstd-shuffle@deno/mod.js';
-import maxn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxn@deno/mod.js';
+import maxn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxn@v0.2.2-deno/mod.js';
 
 var x;
 var y;
