@@ -46,7 +46,7 @@ y = \max(x_1, x_2, \ldots, x_n)
 ```
 
 <!-- <div class="equation" align="center" data-raw-text="y = \max(x_1, x_2, \ldots, x_n)" data-equation="eq:maxn_function">
-    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@e35241e609f4ea7a5a1e367022755bde30d3119f/lib/node_modules/@stdlib/math/base/special/maxn/docs/img/equation_maxn_function.svg" alt="Maximum of n values">
+    <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@85f48534ef6908bbcd982d48f1c5fbea3fb7aafd/lib/node_modules/@stdlib/math/base/special/maxn/docs/img/equation_maxn_function.svg" alt="Maximum of n values">
     <br>
 </div> -->
 
@@ -58,14 +58,32 @@ y = \max(x_1, x_2, \ldots, x_n)
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-maxn
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import maxn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxn@deno/mod.js';
+var maxn = require( '@stdlib/math-base-special-maxn' );
 ```
 
 #### maxn( \[x\[, y\[, ...args]]] )
@@ -125,8 +143,8 @@ var v = maxn();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import minstd from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-minstd-shuffle@deno/mod.js';
-import maxn from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxn@deno/mod.js';
+var minstd = require( '@stdlib/random-base-minstd-shuffle' );
+var maxn = require( '@stdlib/math-base-special-maxn' );
 
 var x;
 var y;
@@ -178,7 +196,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -243,11 +261,11 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/max]: https://github.com/stdlib-js/math-base-special-max/tree/deno
+[@stdlib/math/base/special/max]: https://github.com/stdlib-js/math-base-special-max
 
-[@stdlib/math/base/special/maxabsn]: https://github.com/stdlib-js/math-base-special-maxabsn/tree/deno
+[@stdlib/math/base/special/maxabsn]: https://github.com/stdlib-js/math-base-special-maxabsn
 
-[@stdlib/math/base/special/minn]: https://github.com/stdlib-js/math-base-special-minn/tree/deno
+[@stdlib/math/base/special/minn]: https://github.com/stdlib-js/math-base-special-minn
 
 <!-- </related-links> -->
 
